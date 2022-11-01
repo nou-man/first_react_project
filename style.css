@@ -1,0 +1,241 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    background-color: #E5E5E5;
+    align-items: center;
+    
+    display: flex;
+    
+}
+
+.mid--box {
+    position: absolute;
+    width: 550px;
+    height: 868px;
+    left: 65px;
+    top: 53px;
+    background: #23252C;
+
+}
+
+.inner-image{
+    border-radius: 10px 10px 0px 0px;
+    position: absolute;
+    width: 317px;
+    height: 317px;
+    margin-left: 116px;
+    margin-top: 44px;
+    background-color: white;
+
+
+}
+
+.mid-section {
+    position: absolute;
+    width: 317px;
+    height: 399px;
+    left: 116px;
+    top: 361px;
+    background: #1A1B21;
+}
+
+.footer-l {
+    position: absolute;
+    width: 317px;
+    height: 64px;
+    left: 116px;
+    top: 760px;
+
+    background: #161619;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.MyName{
+    position: absolute;
+    /* width: 178.06px; */
+    /* height: 25.81px; */
+    margin-left: 60px;
+    margin-top: 21px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.position{
+    position: absolute;
+    width: 178.06px;
+    height: 14.19px;
+    margin-left: 70px;
+    margin-top: 53px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12.8px;
+    line-height: 15px;
+    text-align: center;
+
+    color: #F3BF99;
+}
+
+.website{
+    position: absolute;
+    width: 228px;
+    height: 16px;
+    margin-left: 45px;
+    margin-top: 76px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+
+    /* identical to box height, or 15px */
+    text-align: center;
+
+    color: #F5F5F5;
+
+
+}
+
+.email-button {
+    box-sizing: border-box;
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 13px 9px 11px;
+    gap: 8px;
+
+    position: absolute;
+    width: 115px;
+    height: 34px;
+    margin-left: 35px;
+    margin-top: 107px;
+
+    /* white */
+    background: #FFFFFF;
+
+    /* gray/300 */
+    border: 1px solid #D1D5DB;
+
+    /* shadow/sm */
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+}
+
+.link-button{
+    /* Button */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 13px 9px 11px;
+    gap: 8px;
+
+    position: absolute;
+    width: 115px;
+    height: 34px;
+    margin-left: 167px;
+    margin-top: 107px;
+
+    background: #5093E2;
+
+    /* shadow/sm */
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+}
+
+.detail-section{
+    position: absolute;
+    width: 247px;
+    height: 201px;
+    /* background-color: white; */
+    margin-left: 36px;
+    margin-top: 176px;
+    
+}
+
+.about{
+    position: absolute;
+    width: 242.71px;
+    height: 21px;
+    /* left: 152px; */
+    /* top: 535px; */
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+
+    /* or 24px */
+
+    color: #F5F5F5;
+}
+
+.myDetails{
+    position: absolute;
+    width: 247px;
+    height: 61px;
+    /* margin-left: 36px; */
+    margin-top: 40px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+
+    /* or 15px */
+
+    color: #DCDCDC;
+}
+
+.interests{
+    position: absolute;
+    width: 242.71px;
+    height: 21px;
+    /* left: 152px; */
+    margin-top: 120px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+
+    /* or 24px */
+
+    color: #F5F5F5;
+}
+
+.int-details{
+    position: absolute;
+    width: 247px;
+    height: 61px;
+    /* left: 152px; */
+    margin-top: 145px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+
+    /* or 15px */
+
+    color: #DCDCDC;
+}
